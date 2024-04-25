@@ -1,5 +1,33 @@
 # Changelog
 
+## [6.5.0](https://github.com/super-linter/super-linter/compare/v6.4.1...v6.5.0) (2024-04-25)
+
+
+### 🚀 Features
+
+* support arbitrary shellcheck config paths ([#5571](https://github.com/super-linter/super-linter/issues/5571)) ([c26430f](https://github.com/super-linter/super-linter/commit/c26430f868da45c64a4271051a2797adf61e8c9a)), closes [#5414](https://github.com/super-linter/super-linter/issues/5414)
+
+
+### ⬆️ Dependency updates
+
+* **dev-npm:** bump @commitlint/config-conventional in /dev-dependencies ([#5521](https://github.com/super-linter/super-linter/issues/5521)) ([5336115](https://github.com/super-linter/super-linter/commit/53361158a1cdd3b7660986e00d8635147970e842))
+* **dev-npm:** bump release-please in /dev-dependencies ([#5566](https://github.com/super-linter/super-linter/issues/5566)) ([11691a0](https://github.com/super-linter/super-linter/commit/11691a06ed8b75b7e201ff4d4880191bf6690941))
+* **docker:** bump alpine/terragrunt from 1.8.0 to 1.8.1 ([#5552](https://github.com/super-linter/super-linter/issues/5552)) ([1682dbc](https://github.com/super-linter/super-linter/commit/1682dbc599cd05ff943da206364f47e42ea98d6c))
+* **docker:** bump dart from 3.3.3-sdk to 3.3.4-sdk ([#5550](https://github.com/super-linter/super-linter/issues/5550)) ([a540e8d](https://github.com/super-linter/super-linter/commit/a540e8d30d87a6176013cb937395ef0291e62457))
+* **docker:** bump hashicorp/terraform from 1.8.0 to 1.8.1 ([#5551](https://github.com/super-linter/super-linter/issues/5551)) ([74733ba](https://github.com/super-linter/super-linter/commit/74733ba0a4f8a80f098968204ecb912a550d7528))
+* **github-actions:** bump actions/download-artifact from 4.1.4 to 4.1.5 ([#5553](https://github.com/super-linter/super-linter/issues/5553)) ([90554b4](https://github.com/super-linter/super-linter/commit/90554b436d184e59827403bda7e0b1f36b8e6995))
+* **github-actions:** bump actions/upload-artifact from 4.3.1 to 4.3.2 ([#5554](https://github.com/super-linter/super-linter/issues/5554)) ([46a0678](https://github.com/super-linter/super-linter/commit/46a0678d46fcb415aeecf62811f7acd01f862975))
+* **npm:** bump @typescript-eslint/eslint-plugin in /dependencies ([#5561](https://github.com/super-linter/super-linter/issues/5561)) ([9416109](https://github.com/super-linter/super-linter/commit/9416109904d44bb50b64029037eec9461a520936))
+* **npm:** bump next from 14.2.1 to 14.2.2 in /dependencies ([#5563](https://github.com/super-linter/super-linter/issues/5563)) ([052892b](https://github.com/super-linter/super-linter/commit/052892b1f70f90946623788a879dccf237c54974))
+* **npm:** bump npm-groovy-lint from 14.4.0 to 14.4.1 in /dependencies ([#5565](https://github.com/super-linter/super-linter/issues/5565)) ([9cce54a](https://github.com/super-linter/super-linter/commit/9cce54a9e89da728a4ab57e1dbed660251c63088))
+* **npm:** bump renovate from 37.296.0 to 37.317.0 in /dependencies ([#5562](https://github.com/super-linter/super-linter/issues/5562)) ([a831c47](https://github.com/super-linter/super-linter/commit/a831c47e7e49dd4f838bacccd18b4bcea3884db9))
+* **python:** bump cfn-lint in /dependencies/python ([#5556](https://github.com/super-linter/super-linter/issues/5556)) ([72d4e76](https://github.com/super-linter/super-linter/commit/72d4e765fba4e0d0d8284abaf2963e8305bdf158))
+* **python:** bump checkov from 3.2.65 to 3.2.73 in /dependencies/python ([#5559](https://github.com/super-linter/super-linter/issues/5559)) ([cd1b819](https://github.com/super-linter/super-linter/commit/cd1b81991663c9489cd0be741beeaf98be80578c))
+* **python:** bump ruff from 0.3.7 to 0.4.1 in /dependencies/python ([#5560](https://github.com/super-linter/super-linter/issues/5560)) ([7e7da7a](https://github.com/super-linter/super-linter/commit/7e7da7ad369c85feee149b7ee237fef558bac5a3))
+* **python:** bump snakemake in /dependencies/python ([#5558](https://github.com/super-linter/super-linter/issues/5558)) ([02a63e9](https://github.com/super-linter/super-linter/commit/02a63e98cf700af931b6cb1383cb461e53b4633c))
+* **python:** bump sqlfluff from 3.0.4 to 3.0.5 in /dependencies/python ([#5557](https://github.com/super-linter/super-linter/issues/5557)) ([0cbc4d9](https://github.com/super-linter/super-linter/commit/0cbc4d9c8d8fead38c826f9796bb7b6cb2d84de4))
+* **python:** bump yq from 3.3.0 to 3.4.1 in /dependencies/python ([#5555](https://github.com/super-linter/super-linter/issues/5555)) ([f33d4b2](https://github.com/super-linter/super-linter/commit/f33d4b288450b6327b67e409019c05f0281f2853))
+
 ## [6.4.1](https://github.com/super-linter/super-linter/compare/v6.4.0...v6.4.1) (2024-04-22)
 
 
