@@ -515,10 +515,10 @@ GetGitHubVars() {
       info "Successfully found GITHUB_RUN_ID ${GITHUB_RUN_ID}"
     fi
 
-    GITHUB_STATUS_URL="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}"
+    GITHUB_STATUS_URL="${GITHUB_STATUS_URL:${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}}"
     debug "GitHub Status URL: ${GITHUB_STATUS_URL}"
 
-    GITHUB_STATUS_TARGET_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+    GITHUB_STATUS_TARGET_URL="${GITHUB_STATUS_TARGET_URL:${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}}"
     debug "GitHub Status target URL: ${GITHUB_STATUS_TARGET_URL}"
   else
     debug "Skip GITHUB_TOKEN, GITHUB_REPOSITORY, and GITHUB_RUN_ID validation because we don't need these variables for GitHub Actions status reports. MULTI_STATUS: ${MULTI_STATUS}"
